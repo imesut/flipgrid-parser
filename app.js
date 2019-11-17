@@ -5,8 +5,7 @@ var fligrid = require("./flipgrid");
 
 
 app.get('/', async function (req, res) {
-    res.send("Hello World");
-    //res.redirect("https://google.com");
+    res.redirect("https://github.com/imesut/flipgrid-parser");
 
 })
 
