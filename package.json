@@ -1,7 +1,7 @@
 {
   "name": "flipgrid-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fetches All of the grids > topics data from Flipgrid for dashboarding purposes and data analysis",
   "main": "flipgrid.js",
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -15,16 +15,19 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel-node --presets es2015 app.js"
+    "start": "babel-node --presets es2015 app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imesut/flipgrid-parser.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mesut Yılmaz",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/imesut/flipgrid-parser/issues"
   },
-  "homepage": "https://github.com/imesut/flipgrid-parser#readme"
+  "homepage": "https://github.com/imesut/flipgrid-parser#readme",
+  "keywords": [
+    "flipgrid"
+  ]
 }
